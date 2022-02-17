@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>Thomas ILLIET</Authors>
+    <Company>Netboot</Company>
+    <Product>MicroAutomation</Product>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>Micro library for my automation utilities</Description>
+    <Authors>Thomas ILLIET</Authors>
+    <Copyright>Thomas ILLIET</Copyright>
+    <PackageIconUrl />
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageProjectUrl>https://github.com/NetbootHome/MicroAutomation-Log</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/NetbootHome/MicroAutomation-Log/blob/main/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/NetbootHome/MicroAutomation-Log</RepositoryUrl>
+  </PropertyGroup>
+  
+  <ItemGroup>
+		<None Include="..\Assets\Logo.png">
+			<Pack>True</Pack>
+			<PackagePath></PackagePath>
+		</None>
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MicroAutomation.Swagger" Version="6.0.0" />
+    <PackageReference Include="MicroAutomation.Web" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+  </ItemGroup>
+  
+
+
+</Project>

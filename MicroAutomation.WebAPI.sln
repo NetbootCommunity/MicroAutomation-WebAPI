@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroAutomation.WebAPI", "Src\MicroAutomation.WebAPI.csproj", "{D7394912-9C07-4E6B-83E8-0044BC947DF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7394912-9C07-4E6B-83E8-0044BC947DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7394912-9C07-4E6B-83E8-0044BC947DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7394912-9C07-4E6B-83E8-0044BC947DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7394912-9C07-4E6B-83E8-0044BC947DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4155A6-4089-46FA-B501-939E8C546BAC}
+	EndGlobalSection
+EndGlobal
