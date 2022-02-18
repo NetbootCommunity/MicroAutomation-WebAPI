@@ -32,6 +32,7 @@ public abstract class DefaultApiStartup : DefaultWebStartup
         services.AddJwtAuthentication(Configuration);
 
         // Frameworks
+        services.AddEndpointsApiExplorer();
         services.AddSwagger(Configuration);
     }
 
