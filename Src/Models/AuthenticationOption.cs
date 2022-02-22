@@ -9,5 +9,6 @@ namespace MicroAutomation.WebAPI.Models;
 public class AuthenticationOption
 {
     public string Authority { get; set; }
+    public string Audience { get; set; }
     public bool RequireHttpsMetadata { get; set; } = true;
 }

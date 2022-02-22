@@ -40,6 +40,7 @@ public static class AuthenticationExtensions
             {
                 options.Authority = authConfiguration.Authority;
                 options.RequireHttpsMetadata = authConfiguration.RequireHttpsMetadata;
+                options.Audience = authConfiguration.Audience;
             });
             services.AddAuthorization();
         }
